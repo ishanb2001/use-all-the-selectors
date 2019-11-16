@@ -14,6 +14,14 @@ nav {
   font-family: sans-serif;
 }
 
+a {
+  background-color: #719e47;
+}
+
+.no-highlight {
+  background-color: #fdf6e3;
+}
+
 .logo {
   text-transform: uppercase;
 }
