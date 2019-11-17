@@ -16,7 +16,6 @@ nav {
 
 .logo {
   text-transform: uppercase;
-  color: #719e47;
 
 }
 
@@ -25,7 +24,7 @@ nav {
 }
 
 #contents {
-  color: #93a1a1;
+  color: #eee8d5;
 }
 
 #favs {
@@ -48,12 +47,9 @@ ol > li:nth-child(3) {
   color: #93a1a1;
 }
 
-.wrapper: .dfn {
+.dfn.wrapper {
   background-color: #b58900;
-}
 
-strong.dfn {
-  color: #fff;
 }
 
 a.href {
@@ -66,4 +62,10 @@ a.href {
 
 .ol li{
 color: #719e47;
+}
+
+.logo {
+  text-transform: uppercase;
+  color: #719e47;
+
 }
