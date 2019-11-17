@@ -10,13 +10,20 @@ footer {
   font-size: 1.5rem;
 }
 
-nav ul{
+nav {
   font-family: sans-serif;
+}
+
+a {
+  background-color: #719e47;
+}
+
+.no-highlight {
+  background-color: #fdf6e3;
 }
 
 .logo {
   text-transform: uppercase;
-
 }
 
 .wrapper {
@@ -24,19 +31,11 @@ nav ul{
 }
 
 #contents {
-  color: #eee8d5;
+  color: #93a1a1;
 }
 
 #favs {
   color: #93a1a1;
-}
-
-ol > li:nth-child(1) {
-  color: #719e47;
-}
-
-ol > li:nth-child(3) {
-  color: #2aa198;
 }
 
 #facts {
@@ -47,24 +46,22 @@ ol > li:nth-child(3) {
   color: #93a1a1;
 }
 
-.dfn.wrapper {
+.wrapper: .dfn {
   background-color: #b58900;
+}
 
+strong.dfn {
+  color: #fff;
 }
 
 a.href {
   background-color: #719e07;
 }
 
-.external {
+a[rel=external] {
   background-color: #2694d8;
 }
 
 .ol li{
 color: #719e47;
-}
-
-.logo {
-  text-transform: uppercase;
-
 }
