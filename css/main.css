@@ -14,16 +14,10 @@ nav {
   font-family: sans-serif;
 }
 
-a {
-  background-color: #719e47;
-}
-
-.no-highlight {
-  background-color: #fdf6e3;
-}
-
 .logo {
   text-transform: uppercase;
+  color: #719e47;
+
 }
 
 .wrapper {
@@ -36,6 +30,14 @@ a {
 
 #favs {
   color: #93a1a1;
+}
+
+ol > li:nth-child(1) {
+  color: #719e47;
+}
+
+ol > li:nth-child(3) {
+  color: #2aa198;
 }
 
 #facts {
@@ -59,7 +61,7 @@ a.href {
 }
 
 .external {
-background-color: #2694d8;
+  background-color: #2694d8;
 }
 
 .ol li{
