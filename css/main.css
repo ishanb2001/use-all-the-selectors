@@ -2,15 +2,11 @@
  background-color: #fdf6e3;
 }
 
-header{
+header, footer{
   font-size: 1.5rem;
 }
 
-footer {
-  font-size: 1.5rem;
-}
-
-nav {
+nav ul{
   font-family: sans-serif;
 }
 
@@ -46,7 +42,8 @@ a {
   color: #93a1a1;
 }
 
-.wrapper: .dfn {
+
+.dfn p {
   background-color: #b58900;
 }
 
@@ -54,6 +51,7 @@ strong.dfn {
   color: #fff;
 }
 
+}
 a.href {
   background-color: #719e07;
 }
@@ -68,4 +66,8 @@ color: #719e47;
 
 ol li:last-child{
   color: #2aa198;
+}
+
+ul.types li:nth-child(odd) {
+  background-color: #657ba3;
 }
