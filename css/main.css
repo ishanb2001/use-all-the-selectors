@@ -2,11 +2,15 @@
  background-color: #fdf6e3;
 }
 
-header, footer{
+header{
   font-size: 1.5rem;
 }
 
-nav ul{
+footer {
+  font-size: 1.5rem;
+}
+
+ul{
   font-family: sans-serif;
 }
 
