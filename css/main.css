@@ -71,3 +71,7 @@ ol li:last-child{
 ul.types li:nth-child(odd) {
   background-color: #657ba3;
 }
+
+ul.types li:nth-child(even) {
+  background-color: #586e75;
+}
