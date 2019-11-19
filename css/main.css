@@ -1,8 +1,8 @@
- body{
- background-color: #fdf6e3;
+body {
+  background-color: #fdf6e3;
 }
 
-header{
+header {
   font-size: 1.5rem;
 }
 
@@ -10,7 +10,7 @@ footer {
   font-size: 1.5rem;
 }
 
-ul{
+ul {
   font-family: sans-serif;
 }
 
